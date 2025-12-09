@@ -12,3 +12,6 @@ For existing projects
 git remote add origin https://github.com/KathiravanThirumurthy/ReactSeries.git
 git branch -M main
 git push -u origin main
+
+rename .gitignore.txt .gitignore
+rename README.md.txt README.md
