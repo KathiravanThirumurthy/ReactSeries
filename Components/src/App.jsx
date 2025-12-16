@@ -4,15 +4,19 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import Welcome from './Welcome'
 import Header from './Header'
+import Footer from './coponents/Footer'
+
 
 function App() {
-  const [count, setCount] = useState(0)
+  
 
   return (
     <>
        <p>Component Description</p>
        <Header />
        <Welcome />
+       <Footer />
+       
     </>
   )
 }
