@@ -2,32 +2,32 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
+import Child from './components/Child'
 
 function App() {
+  /* state with int */
   const [count, setCount] = useState(0)
-
+  /* state with strings */
+  const [name, setName] = useState("Guest");
+  /* state with Objects */
+  const [user, setUser] = useState({ name: "John", age: 20 });
+ /* state with Array */
+  const [items, setItems] = useState(["Apple"]);
+  /* Toggle State ( Boolean) */
+  const [show, setShow] = useState(true);
   return (
     <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
+      <h2>Count : {count}</h2>
+      <h2>Name : {name}</h2>
+      <h2>Name : {user.name} - Age : {user.age}</h2>
+      <h2>Fruits :{items}</h2>
+      {show && <p>Hello!</p>}
+      <button onClick={()=>setCount(count+1)}>Increment</button>
+      <button onClick={() => setName("React Student")}>Change Name</button>
+      <button onClick={() => setUser({ ...user, age: user.age + 1 })}> Increase Age</button>
+      <button onClick={() => setItems([...items, "Orange"])}> Add Item</button>
+      <Child count={count} />
+      <button onClick={() => setShow(!show)}>Toggle</button>
     </>
   )
 }

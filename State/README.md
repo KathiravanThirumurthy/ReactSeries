@@ -88,6 +88,35 @@ const [show, setShow] = useState(true);
 
 {show && <p>Hello!</p>}
 
+Conditional Rendering using &&
+{show && <p>Hello!</p>}
+
+This uses JavaScript short-circuit logic.
+
+Rule:
+true && something   → something
+false && something  → false
+
+Light Switch Example
+
+show = true → Light ON → You see “Hello!”
+
+show = false → Light OFF → You don’t see it
+
+Button = Switch
+
+This pattern is used for:
+
+Show / Hide password
+
+Open / Close modal
+
+Show / Hide menu
+
+Read more / Read less
+
+FAQ expand / collapse
+
 ###
 Array of Objects (Example: Simple Cart)
 const [cart, setCart] = useState([]);
