@@ -30,3 +30,20 @@ rename README.md.txt README.md
 | Class 10 | `class10`   | Mini Project UI                       |
 | Class 11 | `class11`   | Props Drilling_Lifting state          |
 
+| Class No | Folder Name | Project Name / Topic             |
+| -------- | ----------- | -------------------------------- |
+| Class 11 | `class11`   | Hooks Introduction -pdf              |
+| Class 12 | `class12`   | useState – Deep Dive             |
+| Class 13 | `class13`   | Events with useState             |
+| Class 14 | `class14`   | Conditional Rendering with Hooks |
+| Class 15 | `class15`   | Lists & State Management         |
+| Class 16 | `class16`   | useEffect – Basics               |
+| Class 17 | `class17`   | useEffect – API & Side Effects   |
+| Class 18 | `class18`   | Lifting State Up (Hooks View)    |
+| Class 19 | `class19`   | useContext                       |
+| Class 20 | `class20`   | Custom Hooks                     |
+| Class 21 | `class21`   | useRef                           |
+| Class 22 | `class22`   | useReducer                       |
+| Class 23 | `class23`   | useMemo & useCallback            |
+| Class 24 | `class24`   | Advanced Hooks Patterns          |
+| Class 25 | `class25`   | Hooks Mini Project               |
