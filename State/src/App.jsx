@@ -5,6 +5,7 @@ import './App.css'
 import Child from './components/Child'
 
 function App() {
+ 
   /* state with int */
   const [count, setCount] = useState(0)
   /* state with strings */
@@ -17,6 +18,7 @@ function App() {
   const [show, setShow] = useState(true);
   return (
     <>
+    
       <h2>Count : {count}</h2>
       <h2>Name : {name}</h2>
       <h2>Name : {user.name} - Age : {user.age}</h2>
@@ -28,8 +30,10 @@ function App() {
       <button onClick={() => setItems([...items, "Orange"])}> Add Item</button>
       <Child count={count} />
       <button onClick={() => setShow(!show)}>Toggle</button>
+      
     </>
   )
 }
 
 export default App
+

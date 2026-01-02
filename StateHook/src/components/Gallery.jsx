@@ -1,6 +1,7 @@
 import React,{useState} from 'react'
 import { sculptureList } from '../Data/data';
 const Gallery = () => {
+   
     let startIndex=0;
      const [index,setIndex]=useState(startIndex)
      const [showMore, setShowMore] = useState(false);
