@@ -4,12 +4,13 @@ import viteLogo from '/vite.svg'
 import './App.css'
 
 function App() {
+  
   const [count, setCount] = useState(0)
   useEffect(() => {
   document.title = `Count: ${count}`;
-  }, [count]);
+    }, [count]);
  const handleClick=()=>{
-   setCount(count+1);
+    setCount(count+1);
  }
   return (
     <>
@@ -19,5 +20,6 @@ function App() {
     </>
   )
 }
-
+ 
 export default App
+

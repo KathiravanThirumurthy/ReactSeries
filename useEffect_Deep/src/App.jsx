@@ -12,8 +12,7 @@ function App() {
   const [sortOrder, setSortOrder] = useState("");
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
-
-  /*
+/*
   useEffect(() => {
   fetch("https://jsonplaceholder.typicode.com/users")
   .then(res => res.json())
@@ -21,6 +20,8 @@ function App() {
   },[]);
 */
 // With asyn and await
+
+
 useEffect(()=>{
   const fetchUsers=async()=>{
 
@@ -46,6 +47,7 @@ useEffect(()=>{
 },[])
 
 
+
   return (
      <div style={{ padding: "20px" }}>
       <h1>Student Data Manipulation (React)</h1>
@@ -56,3 +58,4 @@ useEffect(()=>{
 }
 
 export default App
+

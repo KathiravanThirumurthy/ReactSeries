@@ -1,23 +1,18 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
-import Welcome from './Welcome'
+import React from 'react'
 import Header from './Header'
-import Footer from './coponents/Footer'
+import Footer from './components/Footer'
+import Section from './components/Section'
 
-
-function App() {
+const App = () => {
   
-
   return (
-    <>
-       <p>Component Description</p>
-       <Header />
-       <Welcome />
-       <Footer />
-       
-    </>
+    <div>
+
+      <Header />
+      <Section />
+      <Footer />
+
+    </div>
   )
 }
 
