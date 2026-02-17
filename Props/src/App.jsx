@@ -36,7 +36,7 @@ const products = [
 
 const handleBuy = (pName) => {
   alert("You bought " + pName);
-};
+}; 
 
 
   return (

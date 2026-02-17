@@ -3,12 +3,66 @@ React form -controls the form , data is stored in state, no page reload
 ###
 Controlled Component :
 A controlled component is an input element whose value is controlled by React state.
-const [name, setName] = useState("");
-<input
-type="text"
+
+That means:
+
+React state = single source of truth
+
+Input value comes from state
+
+When user types → state updates → UI re-renders
+
+Controlled component = React controls the input
+
+Uncontrolled component = DOM controls the input
+
+import { useState } from "react";
+
+function App() {
+  const [name, setName] = useState("");
+
+  return (
+    <div>
+      <p>Typed: {name}</p>
+
+      <input
+        type="text"
+        value={name}
+        onChange={(e) => setName(e.target.value)}
+      />
+    </div>
+  );
+}
+
+export default App;
+
+React stores the value.
 value={name}
+Input value comes from React state.
 onChange={(e) => setName(e.target.value)}
-/>
+
+When user types:
+
+React updates state
+
+Component re-renders
+
+Input updates
+
+👉 The input cannot change unless React allows it.
+
+That’s why it’s called Controlled.
+User types
+⬇
+onChange fires
+⬇
+setState updates
+⬇
+Component re-renders
+⬇
+Input displays new value
+
+React is controlling everything.
 
 ###
 Handling form Submission

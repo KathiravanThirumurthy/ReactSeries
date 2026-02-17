@@ -32,7 +32,7 @@ rename README.md.txt README.md
 
 | Class No | Folder Name | Project Name / Topic             |
 | -------- | ----------- | -------------------------------- |
-| Class 11 | `class11`   | Hooks Introduction -pdf              |
+| Class 11 | `class11`   | Hooks Introduction -pdf          |
 | Class 12 | `class12`   | useState – Deep Dive             |
 | Class 13 | `class13`   | Events with useState             |
 | Class 14 | `class14`   | Conditional Rendering with Hooks |
@@ -40,10 +40,14 @@ rename README.md.txt README.md
 | Class 16 | `class16`   | useEffect – Basics               |
 | Class 17 | `class17`   | useEffect – API & Side Effects   |
 | Class 18 | `class18`   | Lifting State Up (Hooks View)    |
-| Class 19 | `class19`   | useContext                       |
-| Class 20 | `class20`   | Custom Hooks                     |
-| Class 21 | `class21`   | useRef                           |
-| Class 22 | `class22`   | useReducer                       |
-| Class 23 | `class23`   | useMemo & useCallback            |
-| Class 24 | `class24`   | Advanced Hooks Patterns          |
-| Class 25 | `class25`   | Hooks Mini Project               |
+| Class 19 | `class19`   | controlled Component 1           |
+| Class 20 | `class20`   | controlled Component 2           |
+| Class 21 | `class21`   | unControlled Comp(useRef)        |
+| Class 22 | `class22`   | unControlled Comp 2              |
+| Class 23 | `class23`   | useContext                       |
+| Class 24 | `class24`   | Custom Hooks                     |
+| Class 25 | `class25`   | useReducer                       |
+| Class 26 | `class26`   | useMemo & useCallback            |
+| Class 27 | `class27`   | Advanced Hooks Patterns          |
+| Class 28 | `class28`   | Hooks Mini Project               |
+
