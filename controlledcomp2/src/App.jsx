@@ -1,12 +1,16 @@
 import { useState } from "react";
 
 function App() {
+
   const [formData, setFormData] = useState({
     email: "",
     password: ""
   });
 
+ 
   const handleChange = (e) => {
+    console.log(e.target.name);
+    console.log(e.target.value);
     const { name, value } = e.target;
 
     setFormData((prev) => ({
@@ -16,7 +20,7 @@ function App() {
   };
 
    const handleSubmit = (e) => {
-  e.preventDefault();
+    e.preventDefault();
    console.log(formData);
   };
 
@@ -49,3 +53,4 @@ setFormData({
 }
 
 export default App;
+

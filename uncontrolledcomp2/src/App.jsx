@@ -7,10 +7,12 @@ function App() {
     e.preventDefault();
 
     const formData = new FormData(formRef.current);
+    console.log(formData);
 
     const data = Object.fromEntries(formData.entries());
 
     console.log(data);
+  
   };
 
   return (
@@ -18,7 +20,7 @@ function App() {
       <h2>Uncontrolled Form (Single Ref)</h2>
 
       <form ref={formRef} onSubmit={handleSubmit}>
-        <input type="text" name="name" placeholder="Name" />
+        <input type="text" name="username" placeholder="Name" />
         <input type="email" name="email" placeholder="Email" />
         <input type="password" name="password" placeholder="Password" />
 
@@ -29,3 +31,4 @@ function App() {
 }
 
 export default App;
+

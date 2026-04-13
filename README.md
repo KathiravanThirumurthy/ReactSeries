@@ -44,10 +44,15 @@ rename README.md.txt README.md
 | Class 20 | `class20`   | controlled Component 2           |
 | Class 21 | `class21`   | unControlled Comp(useRef)        |
 | Class 22 | `class22`   | unControlled Comp 2              |
-| Class 23 | `class23`   | useContext                       |
-| Class 24 | `class24`   | Custom Hooks                     |
-| Class 25 | `class25`   | useReducer                       |
-| Class 26 | `class26`   | useMemo & useCallback            |
-| Class 27 | `class27`   | Advanced Hooks Patterns          |
-| Class 28 | `class28`   | Hooks Mini Project               |
+| Class 23 | `class23`   | Router Basics                    |
+| Class 24 | `class24`   | Router-Nested(Layout)            |
+| Class 25 | `class25`   | Router-Student Dashboard         |
+| Class 26 | `class26`   | UseNaviagte-V1                   |
+| Class 27 | `class27`   | UseNaviage-V2                    |
+| Class 28 | `class28`   | useContext                       |
+| Class 29 | `class29`   | Custom Hooks                     |
+| Class 30 | `class30`   | useReducer                       |
+| Class 31 | `class31`   | useMemo & useCallback            |
+| Class 32 | `class32`   | Advanced Hooks Patterns          |
+| Class 33 | `class33`   | Hooks Mini Project               |
 

@@ -1,5 +1,6 @@
 import { useRef } from "react";
 
+
 function App() {
   const nameRef = useRef(null);
   const emailRef = useRef(null);
@@ -7,13 +8,13 @@ function App() {
 
   const handleSubmit = (event) => {
     event.preventDefault();
-
+    
     const formData = {
       name: nameRef.current.value,
       email: emailRef.current.value,
       password: passwordRef.current.value
     };
-
+  
     console.log("Form Data:", formData);
   };
 
